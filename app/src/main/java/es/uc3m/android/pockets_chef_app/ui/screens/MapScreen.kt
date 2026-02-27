@@ -15,6 +15,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import es.uc3m.android.pockets_chef_app.ui.theme.PocketsChefTheme
 
+
 @Composable
 fun MapScreen(navController: NavController) {
     Column(modifier = Modifier.fillMaxSize()) {
