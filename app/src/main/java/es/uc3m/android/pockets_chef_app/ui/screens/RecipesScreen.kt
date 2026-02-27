@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import es.uc3m.android.pocketschef.ui.theme.PocketsChefTheme
+import es.uc3m.android.pockets_chef_app.ui.theme.PocketsChefTheme
 
 // Temporary data class — replaced by Room entity in Week 6
 data class RecipePreview(
