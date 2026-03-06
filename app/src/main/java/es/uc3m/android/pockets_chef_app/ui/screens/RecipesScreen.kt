@@ -76,7 +76,8 @@ fun RecipesScreen(navController: NavController) {
 
         // ── List ──────────────────────────────────────────────────────────
         val displayed = sampleRecipes.filter {
-            it.title.contains(searchQuery, ignoreCase = true)
+            it.title.contains(searchQuery, ignoreCase = true) &&
+                    (selectedTab == 0 || it.isFavorite)
         }
 
         LazyColumn(

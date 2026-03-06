@@ -6,7 +6,7 @@
     <style name="Theme.PocketsChef.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#7B1C2E</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
-        <item name="postSplashScreenTheme">@style/Theme.PocketsChef</item>
+        <item name="postSplashScreenTheme">@style/Theme.Pockets_Chef_App</item>
     </style>
 
 </resources>
